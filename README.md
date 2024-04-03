@@ -6,7 +6,7 @@ This is a flexbe application that executes commands to the Kobuki robot via mess
 ### 1. FlexBE
 Below is a state diagram of this application:
 
-![Diagram](./images/flexbe.png)
+![Diagram](./images/Flexbe_Overview.png)
 
 - First, Kobuki gets ready to go on a mission.
 - Second, check to see if there are any messages from Telegram.
@@ -111,7 +111,8 @@ $ roslaunch flexbe_app flexbe_full.launch
 ```
 
 ## How to use the application
-This application extracts certain keywords from the commands. These keywords are `호출`, `배송`, `순찰`, and `충전` as described earlier. The `호출` and `배송` commands must be written with a destination, currently available destinations are 101, 102, 103, and 104. 
+This application extracts certain keywords from the commands. These keywords are `호출`, `배송`, `순찰`, and `충전` as described earlier. 
+The `호출` and `배송` commands must be written with a destination, currently available destinations are 101, 102, 103, and 104. 
 
 Example commands:
 >꼬부기야 순찰해줘.
