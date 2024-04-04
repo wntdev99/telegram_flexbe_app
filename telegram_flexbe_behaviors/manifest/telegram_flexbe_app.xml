@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="telegram_flexbe_app">
+
+	<executable package_path="telegram_flexbe_behaviors.telegram_flexbe_app_sm" class="telegram_flexbe_appSM" />
+	<tagstring>telegram, flexbe, kobuki</tagstring>
+	<author>Jeongmin Choi</author>
+	<date>Thu Apr 04 2024</date>
+	<description>
+		This is a flexbe application that executes commands to the Kobuki robot via messages received from Telegram. The FlexBe application can perform four commands: Call, Charge, and Patrol.
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
