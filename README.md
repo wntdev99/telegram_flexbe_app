@@ -92,7 +92,7 @@ Build
 ```
 $ cd ..;catkin_make
 ```
-## How to run the application
+## How to run
 Run FlexBE and import the flexbe_telegram_app Behavior. Next, press the Run button to run the app. 
 
 ```bash
@@ -110,7 +110,7 @@ $ roslaunch telegram_ros telegram_ros.launch
 $ roslaunch flexbe_app flexbe_full.launch
 ```
 
-## How to use the application
+## How to use
 This application extracts certain keywords from the commands. These keywords are `호출`, `배송`, `순찰`, and `충전` as described earlier. 
 The `호출` and `배송` commands must be written with a destination, currently available destinations are 101, 102, 103, and 104. 
 
